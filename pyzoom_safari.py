@@ -16,9 +16,9 @@ def main():
         "art": "https://zoom.us/j/0000000000",
         "english": "https://zoom.us/j/0000000000",
         "history": "https://zoom.us/j/0000000000",
+        "language": "https://zoom.us/j/0000000000",
         "math": "https://zoom.us/j/0000000000",
         "science": "https://zoom.us/j/0000000000",
-        "language": "https://zoom.us/j/0000000000",
     }
 
     room = input("Class: ").lower()
