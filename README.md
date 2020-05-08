@@ -21,7 +21,7 @@ git clone https://github.com/YulkyTulky/StealMemes.git
 cd StealMemes
 ```
 
-Then, you must edit the file in a text editor, inputting corresponding subjects and Zoom links.
+Then, you must edit the python file in a text editor, inputting corresponding subjects and Zoom links.
 To do this, find this section of the code:
 ```
 classrooms = {
