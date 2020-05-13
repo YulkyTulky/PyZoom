@@ -2,6 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
+import sys
 
 
 def main():
@@ -21,7 +22,10 @@ def main():
         "science": "https://zoom.us/j/0000000000",
     }
 
-    room = input("Class: ").lower()
+    try:
+        room = sys.argv[1]
+    except IndexError:
+        room = input("Class: ").lower()
 
     if room not in classrooms:
         print("Invalid Classroom.")
